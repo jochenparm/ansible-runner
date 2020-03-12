@@ -14,7 +14,8 @@ jobs:
       - run:
           command: tox
           name: Test
-
+      - store_test_results:
+          path: results
 workflows:
   main:
     jobs:

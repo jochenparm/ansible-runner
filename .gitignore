@@ -18,5 +18,6 @@
 .coverage
 *,cover
 .venv
+results/*/results.xml
 
 __pycache__/
