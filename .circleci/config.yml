@@ -9,6 +9,9 @@ jobs:
     steps:
       - checkout
       - run:
+          command: python3 -m pip install --user tox
+          name: Install Tox
+      - run:
           command: tox
           name: Test
 
